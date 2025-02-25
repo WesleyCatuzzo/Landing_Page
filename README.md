@@ -24,7 +24,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 1. Clone este repositório e configure automaticamente o README.md:
    ```bash
-   git clone https://github.com/WesleyCatuzzo/Landing-Page.git
+   git clone https://github.com/WesleyCatuzzo/Landing_Page.git
    cd SEU_REPOSITORIO
    echo "# 📌 Landing Page" > README.md
    echo "\nUma landing page moderna e responsiva para apresentação de um produto, serviço ou empresa." >> README.md
