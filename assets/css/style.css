@@ -83,7 +83,7 @@ p{
 .main-content{
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 10rem var(--gap);
 
 }
 
@@ -159,7 +159,7 @@ p{
     grid-template-columns: 1fr 1.5fr;
     align-items: stretch;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
  }
 
  .intro-text-content, .intro-img{
@@ -178,7 +178,8 @@ p{
  .top3-content{
     max-width: 64rem;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     height: 100vh;
     text-align: center;
@@ -189,7 +190,7 @@ p{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
  }
 
  .grid-main-heading{
@@ -229,4 +230,53 @@ p{
     left:-2rem;
     transform: rotate(5deg);
     
+ }
+
+ .gallery-img{
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+ }
+
+ .gallery-img img{
+    transition: all 300ms ease-in-out;
+ }
+
+ .gallery-img img:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+ }
+
+ 
+ .responsive-table{
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+ }
+
+ table{
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+
+ }
+ 
+ table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+
+ }
+
+ table td, table th{
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+    
+ }
+
+ tfoot td, table th{
+    background: var(--light-gray-color);
  }
