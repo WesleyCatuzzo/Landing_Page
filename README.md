@@ -1,6 +1,7 @@
 # 📌 Landing Page
 
 Uma landing page moderna e responsiva para apresentação de um produto, serviço ou empresa.
+Caso queira ver a página funcionando acesse: https://landingpageexampleforyou.netlify.app/
 
 ## 🚀 Tecnologias Utilizadas
 
