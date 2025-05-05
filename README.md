@@ -15,7 +15,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 📁 landing-page
 │-- 📁 assets  # Imagens, ícones e outros arquivos estáticos
 │-- 📁 css     # Arquivos de estilo (CSS)
-│-- 📁 js      # Scripts e interações (JavaScript)
+│-- 📁 img     # Imagens
 │-- index.html  # Página principal
 │-- README.md   # Documentação do projeto
 ```
